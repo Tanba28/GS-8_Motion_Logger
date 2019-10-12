@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Motion-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1282,7 +1283,7 @@ F 0 "D4" H 2250 955 50  0000 C CNN
 F 1 "RSX101VA" H 2250 864 50  0000 C CNN
 F 2 "Diode_SMD:D_TUMD2" V 2250 750 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2250 750 50  0001 C CNN
-F 4 "秋月電子" H 2250 750 50  0001 C CNN "Agency"
+F 4 "akizuki" H 2250 750 50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2250 750 50  0001 C CNN "Link"
 F 6 "RSX101VAM-30TR" H 2250 750 50  0001 C CNN "MPN"
 	1    2250 750 
@@ -1296,7 +1297,7 @@ F 0 "D5" H 2100 1850 50  0000 C CNN
 F 1 "RSX101VA" H 2500 1850 50  0000 C CNN
 F 2 "Diode_SMD:D_TUMD2" V 2250 1800 50  0001 C CNN
 F 3 "http://akizukidenshi.com/download/ds/rohm/rsx101vam30-j.pdf" V 2250 1800 50  0001 C CNN
-F 4 "秋月電子" H 2250 1800 50  0001 C CNN "Agency"
+F 4 "akizuki" H 2250 1800 50  0001 C CNN "Agency"
 F 5 "http://akizukidenshi.com/catalog/g/gI-05951/" H 2250 1800 50  0001 C CNN "Link"
 F 6 "RSX101VAM-30TR" H 2250 1800 50  0001 C CNN "MPN"
 	1    2250 1800
@@ -1851,6 +1852,9 @@ F 0 "U4" H 5700 7100 50  0000 C CNN
 F 1 "BMI088" H 5700 7000 50  0000 C CNN
 F 2 "KUTKiCad_footprint:Bosch_QFN-16_4.5x3.0mm_P0.5mm_Handsoldering" H 5700 8150 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf" H 5700 8150 50  0001 C CNN
+F 4 "Digikey" H 5700 7000 50  0001 C CNN "Agency"
+F 5 "BMI088" H 5700 7000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.jp/product-detail/ja/bosch-sensortec/BMI088/828-1082-1-ND/8634942" H 5700 7000 50  0001 C CNN "Link"
 	1    5700 7000
 	1    0    0    -1  
 $EndComp
